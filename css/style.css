@@ -89,7 +89,7 @@ footer {
 	font-weight: lighter;
 	font-family: 'Lato';
 	transition-duration: 0.2s;
-	color:#a1b1bc;
+	color:#a1b1bc !important;
 	font-size: 23px;
 }
 
@@ -107,6 +107,12 @@ nav div ul li a  {
 nav div ul li a:hover {
 	color:#1abc9c !important;
 }
+
+.navbar-toggle {
+	border: none;
+}
+
+
 
 /***********ABOUT ME***********/
 header div img {
