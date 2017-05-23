@@ -44,6 +44,7 @@ header {
 	width: 100%;
 	min-height: 500px;
 	-webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
+	clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
 }
 .thumbnail {
 	background: #ededed;
@@ -337,6 +338,7 @@ footer h4 {
 	}
 	.portfolio {
 		-webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
+		clip-path: polygon(0 0, 100% 2%, 100% 98%, 0% 100%)
 	}
 	.lastProject {
 		margin-bottom: 60px;
@@ -359,11 +361,6 @@ footer h4 {
 	}
 }
 @-moz-document url-prefix() {
-	.contactform {
-		margin-top: 0 !important;
-	}
-}
-@supports (-ms-accelerator: true) {
 	.contactform {
 		margin-top: 0 !important;
 	}
